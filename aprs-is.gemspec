@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "aprs-is"
-  s.version     = "0.0.1"
+  s.version     = "0.0.1.5"
   s.summary     = "A ruby wrapper to access the APRS-IS network"
   s.date        = "2014-09-09"
   s.description = "Allows you to interact with the APRS-IS network with your ruby applications"
