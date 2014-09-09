@@ -7,6 +7,7 @@
   aprs.packet("=4158.19N/08556.81W-", "Mesage to append")  #send a packet with your location (please replace location details)
   aprs.msg_raw #print to screen everything you see
   aprs.msg_filter #only print to screen messages containing your callsign and the message attached to it
+  aprs.send_msg(msg, sendto) replace msg with your message and sendto with the callsign your sending a message to
   
   
   Updates: Later this will include functions to enable piping this data into other functions and variables
